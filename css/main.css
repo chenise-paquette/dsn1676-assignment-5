@@ -56,7 +56,12 @@ form{
   background-color: grey;
   text-align: center;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.button:hover {
+  background-color: black;
+} 
 
 .list-box{
   width: 20em;
@@ -68,7 +73,8 @@ form{
   padding: 1.5em 2em;
   overflow: hidden;
   margin: auto;
-  background-color: #e2e2e2;  
+  background-color: #e2e2e2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .list{
@@ -78,6 +84,11 @@ form{
   list-style: none;
 }
 
+.delete{
+  float: right;
+}
 
-
-
+.crossout {
+    text-decoration: line-through;
+    color: white;
+}
