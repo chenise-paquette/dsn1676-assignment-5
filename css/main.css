@@ -25,7 +25,7 @@ html {
   border-right: solid 2px lightgrey;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-  background-color: #e2e2e2;
+  background-color: white;
   width: 20em;
   text-align: center;
   overflow: hidden;
@@ -58,7 +58,24 @@ form{
   color: white;
 }
 
+.list-box{
+  width: 20em;
+  border-bottom: solid 2px #1890ec;
+  border-left: solid 2px #1890ec;
+  border-right: solid 2px #1890ec;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 1.5em 2em;
+  overflow: hidden;
+  margin: auto;
+  background-color: #e2e2e2;  
+}
 
-
+.list{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
 
 
